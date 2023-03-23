@@ -15,14 +15,6 @@ float *BubbleSort(float vet[], int n)
     return vet;
 }
 
-float *selectShort(float *vet, int n)
-{
-    int aux1;
-    for (int c = 0; c < n; c++)
-        
-    return vet;
-}
-
 int main()
 {
     float vet[] = {2, 1, 3, 4, 0};
