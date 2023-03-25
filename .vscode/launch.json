@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/lucas_henrique/Documentos/repositorio_ed2/intro-git-github-Lucasss003",
-      "program": "/home/lucas_henrique/Documentos/repositorio_ed2/intro-git-github-Lucasss003/build/Debug/outDebug",
+      "cwd": "/home/lucas_henrique/Documentos/repositorio_ed2/intro-git-github-Lucasss003/output",
+      "program": "/home/lucas_henrique/Documentos/repositorio_ed2/intro-git-github-Lucasss003/output/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
