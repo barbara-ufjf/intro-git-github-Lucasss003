@@ -84,5 +84,6 @@ int main()
     int vet3[] = {2, 1, 3, 4, 0, -2, -5, 35};
     Ordenacao_insercao(vet3,n);
     cout << endl;
+    int ffff;
     return 0;
 }
