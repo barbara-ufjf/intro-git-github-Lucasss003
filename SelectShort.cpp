@@ -1,24 +1,29 @@
-#include <iostream>
+#include <iostream> 
 using namespace std;
 
-void BubbleSort(int vet[], int n)
+void SelectSort(int vet[], int n)
 {
-    int aux1;
+    int aux1, minimo,i;
     int comparacoes = 0, trocas = 0;
     for (int c = 0; c < n; c++)
-        for (int i = c + 1; i < n; i++)
+    {
+        minimo = c;
+        for (i = c+1 ; i < n; i++)
         {
             comparacoes++;
-            if (vet[c] > vet[i])
-            {
-                aux1 = vet[c];
-                vet[c] = vet[i];
-                vet[i] = aux1;
-                trocas++;
-            }
+            if (vet[minimo] > vet[i])
+                minimo = i;
         }
+        if(minimo != c)
+        {
+            aux1 = vet[minimo];
+            vet[minimo] = vet[c];
+            vet[c] = aux1;
+            trocas++;
+        }
+    }
     cout << "---------------------------------------------------" << endl;
-    cout << "Metodo BubbleSort: " << endl;
+    cout << "Metodo SelectSort: " << endl;
     for (int c = 0; c < n; c++)
         cout << vet[c] << " ";
     cout << endl
@@ -34,7 +39,7 @@ int main()
     for (int c = 0; c < n; c++)
         cout << vet[c] << " ";
     cout << endl;
-    BubbleSort(vet, n);
+    SelectSort(vet, n);
     cout << endl;
     return 0;
 }
