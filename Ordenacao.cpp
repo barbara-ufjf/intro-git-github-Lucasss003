@@ -60,7 +60,7 @@ void InsertShort(int vet[], int n)
 {
     int aux1;
     int comparacoes = 0, trocas = 0;
-    int testeeee;
+    
     cout << "---------------------------------------------------" << endl;
     cout << "Metodo InsertShort: " << endl;
     for (int c = 0; c < n; c++)
