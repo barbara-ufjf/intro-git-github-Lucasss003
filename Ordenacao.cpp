@@ -56,13 +56,13 @@ void SelectSort(int vet[], int n)
     cout << "---------------------------------------------------" << endl;
 }
 
-void Ordenacao_insercao(int vet[], int n)
+void InsertShort(int vet[], int n)
 {
     int aux1;
     int comparacoes = 0, trocas = 0;
     
     cout << "---------------------------------------------------" << endl;
-    cout << "Metodo Ordencao_insercao: " << endl;
+    cout << "Metodo InsertShort: " << endl;
     for (int c = 0; c < n; c++)
         cout << vet[c] << " ";
     cout << endl
@@ -82,7 +82,7 @@ int main()
     int vet2[] = {2, 1, 3, 4, 0, -2, -5, 35};
     SelectSort(vet2, n);
     int vet3[] = {2, 1, 3, 4, 0, -2, -5, 35};
-    Ordenacao_insercao(vet3,n);
+    InsertShort(vet3,n);
     cout << endl;
     return 0;
 }
