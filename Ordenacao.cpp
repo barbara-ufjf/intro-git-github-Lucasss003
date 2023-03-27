@@ -79,26 +79,19 @@ void InsertShort(int vet[], int n)
     cout << "---------------------------------------------------" << endl;
 }
 
-void MergeShort(int vet[], int n)
-{
-
-    
-}
-
 int main()
 {
-    int vet[] = {2, 1, 3, 4, 200, -2, -5, -88};
-    int n = 8;
+    int vet[] = {5, 7, 2, 8, 1, 6};
+    int n = 6;
     cout << "Antes da ordenacao:" << endl;
     for (int c = 0; c < n; c++)
         cout << vet[c] << " ";
     cout << endl;
     BubbleSort(vet, n);
-    int vet2[] = {2, 1, 3, 4, 200, -2, -5, -88};
+    int vet2[] = {5, 7, 2, 8, 1, 6};
     SelectSort(vet2, n);
-    int vet3[] = {2, 1, 3, 4, 200, -2, -5, -88};
+    int vet3[] = {5, 7, 2, 8, 1, 6};
     InsertShort(vet3, n);
-    int vet4[] = {2, 1, 3, 4, 200, -2, -5, -88};
     cout << endl;
     return 0;
 }
